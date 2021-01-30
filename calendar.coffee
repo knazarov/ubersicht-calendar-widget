@@ -121,7 +121,6 @@ update: (output, domEl) ->
     lines = output.split('\n')
     lines = lines.filter (line) -> line isnt ""
 
-    bullet = lines[0][0]
     dom = $(domEl)
     dom.empty()
 
